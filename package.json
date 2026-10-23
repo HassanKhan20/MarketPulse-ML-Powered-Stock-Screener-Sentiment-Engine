@@ -1,0 +1,15 @@
+{
+  "name": "marketpulse",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ML-powered stock screener and news sentiment/risk engine",
+  "scripts": {
+    "setup": "npm install --prefix server && npm install --prefix client",
+    "train": "cd ml && python generate_dataset.py && python train.py",
+    "build": "npm run build --prefix client",
+    "start": "npm start --prefix server",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "test": "npm test --prefix server"
+  }
+}

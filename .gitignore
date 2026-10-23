@@ -1,0 +1,10 @@
+node_modules/
+client/dist/
+server/data/
+ml/data/
+ml/artifacts/*.pt
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+*.log
